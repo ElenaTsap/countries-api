@@ -1,0 +1,24 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrapper > form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wrapper > form > * {
+    height: 30px;
+    min-width: 200px;
+    width: 30vw;
+    margin:10px;
+}
+
+.wrapper > form > section > * {
+    width: 50%;
+    height: 30px;
+}
